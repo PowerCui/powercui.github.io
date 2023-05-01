@@ -73,7 +73,7 @@ You can use the [editor on GitHub](https://github.com/PowerCui/powercui.github.i
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-[学习清单]({% link _posts/2023-05-02-alist.md %}).
+[学习清单]({% post_url  _posts/2023-05-02-alist %}).
 
 [welcomepage]({% link _posts/2023-05-02-welcome-to-jekyll.markdown %}).
 

@@ -4,6 +4,8 @@ You can use the [editor on GitHub](https://github.com/PowerCui/powercui.github.i
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+[测试连接](/doc/%23%20%E5%AD%A6%E4%B9%A0%E6%B8%85%E5%8D%95.md)
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for

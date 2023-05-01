@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-05-02T05:18:25+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2023/05/02/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2023-05-02T04:55:34+08:00</published><updated>2023-05-02T04:55:34+08:00</updated><id>http://localhost:4000/jekyll/update/2023/05/02/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2023/05/02/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>Jekyll requires blog post files to be named according to the following format:</p>
+
+<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+
+<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry><entry><title type="html">学习清单</title><link href="http://localhost:4000/2023/05/02/%E5%AD%A6%E4%B9%A0%E6%B8%85%E5%8D%95.html" rel="alternate" type="text/html" title="学习清单" /><published>2023-05-02T00:00:00+08:00</published><updated>2023-05-02T00:00:00+08:00</updated><id>http://localhost:4000/2023/05/02/%E5%AD%A6%E4%B9%A0%E6%B8%85%E5%8D%95</id><content type="html" xml:base="http://localhost:4000/2023/05/02/%E5%AD%A6%E4%B9%A0%E6%B8%85%E5%8D%95.html"><![CDATA[<h2 id="当学习-vue-时以下是一些建议">当学习 Vue 时，以下是一些建议</h2>
+
+<ul>
+  <li>
+    <p>先学习 Vue 的基础知识：在开始深入学习 Vue 之前，建议先掌握 HTML、CSS 和 JavaScript 等基础知识。Vue 是一个基于 JavaScript 的框架，因此 avaScript 编程知识对于 Vue 的学习至关重要。</p>
+  </li>
+  <li>
+    <p>学习 Vue 的组件化开发:Vue 的主要特点之一是组件化开发。在学习 Vue 时，建议深入了解组件化开发的概念和原理，掌握组件的编写和使用方法。</p>
+  </li>
+  <li>
+    <p>实践是学习的关键：学习 Vue 最好的方法是通过实践。可以尝试编写简单的 Vue 应用程序，并与其他开发者交流和分享你的经验。</p>
+  </li>
+  <li>
+    <p>掌握 Vue 的路由和状态管理:Vue 的状态管理工具是 Vuex，而路由管理工具是 Vue Router。建议学习并掌握这两个工具的使用方法。</p>
+  </li>
+  <li>
+    <p>阅读 Vue 的官方文档:Vue 的官方文档是学习 Vue 的最佳资源之一。建议仔细阅读官方文档，并在实践中应用所学知识。</p>
+  </li>
+  <li>
+    <p>参与 Vue 社区:Vue 社区是一个非常活跃的社区，有许多开发者在使用和贡献 Vue。可以参与 Vue 社区，与其他开发者交流和分享你的经验和知识。</p>
+  </li>
+</ul>
+
+<p>希望这些建议能够帮助你学习 Vue。祝你学习愉快！</p>
+
+<h2 id="对于javascript的学习有什么建议">对于JavaScript的学习有什么建议</h2>
+
+<p>当学习 JavaScript 时，以下是一些建议:</p>
+
+<ul>
+  <li>
+    <p>掌握 JavaScript 的基础知识：在学习 JavaScript 之前，建议先掌握 HTML、CSS 和 CSS 等基础知识。</p>
+  </li>
+  <li>
+    <p>JavaScript 是一个用于创建交互式网页的脚本语言，因此对于网页开发的学习具有重要的推动作用。</p>
+  </li>
+  <li>
+    <p>学习 JavaScript 的 DOM 操作:DOM 是 JavaScript 操作网页的主要对象。学习 DOM 操作可以帮助你更好地掌握 JavaScript，并使用它来创建交互式网页。</p>
+  </li>
+  <li>
+    <p>学习 JavaScript 的事件处理：事件处理是 JavaScript 中非常重要的一个方面。通过学习事件处理，你可以轻松地处理用户交互，例如点击、滚动、拖拽等。</p>
+  </li>
+  <li>
+    <p>实践是学习的关键：学习 JavaScript 最好的方法是通过实践。可以尝试编写简单的 JavaScript 脚本，并与其他开发者交流和分享你的经验。</p>
+  </li>
+  <li>
+    <p>阅读 JavaScript 的官方文档:JavaScript 的官方文档是学习 JavaScript 的最佳资源之一。建议仔细阅读官方文档，并在实践中应用所学知识。</p>
+  </li>
+  <li>
+    <p>参与 JavaScript 社区:JavaScript 社区是一个非常活跃的社区，有许多开发者在使用和贡献 JavaScript。可以参与 JavaScript 社区，与其他开发者交流和分享你的经验和知识。</p>
+  </li>
+</ul>
+
+<p>希望这些建议能够帮助你学习 JavaScript。祝你学习愉快！</p>
+
+<h2 id="学习-html建议">学习 HTML建议</h2>
+
+<p>以下是一些学习 HTML 的建议:</p>
+
+<ul>
+  <li>
+    <p>掌握 HTML 的基础知识：在学习 HTML 之前，建议先了解 HTML 的基本概念和语法，例如标签、属性、元素等。</p>
+  </li>
+  <li>
+    <p>学习 HTML 的表单开发:HTML 表单是网站开发中最常用的表单之一。学习 HTML 表单开发可以帮助你创建有用的表单元素，例如文本框、下拉框、提交按钮等。</p>
+  </li>
+  <li>
+    <p>掌握 HTML 的样式和布局:HTML 是一种用于创建网页的标记语言，而 CSS 是用于样式和布局的语言。学习 HTML 的样式和布局可以帮助你更好地创建美观和高效的网页。</p>
+  </li>
+  <li>
+    <p>实践是学习的关键：学习 HTML 最好的方法是通过实践。可以尝试编写简单的 HTML 页面，并与其他开发者交流和分享你的经验。</p>
+  </li>
+  <li>
+    <p>阅读 HTML 的官方文档:HTML 的官方文档是学习 HTML 的最佳资源之一。建议仔细阅读官方文档，并在实践中应用所学知识。</p>
+  </li>
+  <li>
+    <p>参与 HTML 社区:HTML 社区是一个非常活跃的社区，有许多开发者在使用和贡献 HTML。可以参与 HTML 社区，与其他开发者交流和分享你的经验和知识。</p>
+  </li>
+</ul>
+
+<p>希望这些建议能够帮助你学习 HTML。祝你学习愉快！</p>
+
+<h2 id="学习css的建议">学习CSS的建议</h2>
+
+<p>以下是一些学习 CSS 的建议:</p>
+
+<ul>
+  <li>
+    <p>掌握 CSS 的基础知识：在学习 CSS 之前，建议先了解 CSS 的基本概念和语法，例如选择器、属性、值等。</p>
+  </li>
+  <li>
+    <p>学习 CSS 的样式和布局:CSS 是用于样式和布局的语言。学习 CSS 的样式和布局可以帮助你更好地创建美观和高效的网页。</p>
+  </li>
+  <li>
+    <p>实践是学习的关键：学习 CSS 最好的方法是通过实践。可以尝试编写简单的 CSS 样式，并与其他开发者交流和分享你的经验。</p>
+  </li>
+  <li>
+    <p>阅读 CSS 的官方文档:CSS 的官方文档是学习 CSS 的最佳资源之一。建议仔细阅读官方文档，并在实践中应用所学知识。</p>
+  </li>
+  <li>
+    <p>参与 CSS 社区:CSS 社区是一个非常活跃的社区，有许多开发者在使用和贡献 CSS。可以参与 CSS 社区，与其他开发者交流和分享你的经验和知识。</p>
+  </li>
+  <li>
+    <p>学习 CSS 的高级特性:CSS 的高级特性包括响应式布局、动画、伪类等。学习 CSS 的高级特性可以帮助你更好地应对复杂的网页开发需求。</p>
+  </li>
+</ul>
+
+<p>希望这些建议能够帮助你学习 CSS。祝你学习愉快！</p>
+
+<h2 id="学习java-spring-boot-建议">学习Java spring boot 建议</h2>
+
+<p>以下是一些学习 Java Spring Boot 的建议:</p>
+
+<ul>
+  <li>
+    <p>掌握 Java 基础知识：在学习 Spring Boot 之前，建议先掌握 Java 的基础知识，例如数据类型、控制流语句、数组、类和对象等。</p>
+  </li>
+  <li>
+    <p>学习 Spring Boot 的基础知识：了解 Spring Boot 的基本概念和语法，例如启动器、应用程序配置、依赖注入、Spring MVC 等。</p>
+  </li>
+  <li>
+    <p>实践是学习的关键：学习 Spring Boot 最好的方法是通过实践。可以尝试编写简单的 Spring Boot 应用程序，并与其他开发者交流和分享你的经验。</p>
+  </li>
+  <li>
+    <p>阅读 Spring Boot 的官方文档:Spring Boot 的官方文档是学习 Spring Boot 的最佳资源之一。建议仔细阅读官方文档，并在实践中应用所学知识。</p>
+  </li>
+  <li>
+    <p>参与 Spring Boot 社区:Spring Boot 社区是一个非常活跃的社区，有许多开发者在使用和贡献 Spring Boot。可以参与 Spring Boot 社区，与其他开发者交流和分享你的经验和知识。</p>
+  </li>
+  <li>
+    <p>学习 Spring Boot 的高级特性:Spring Boot 提供了许多高级特性，例如 Spring Cloud、Spring Data JPA、Spring Boot Actuator 等。学习 Spring Boot 的高级特性可以帮助你更好地应对复杂的应用程序开发需求。</p>
+  </li>
+</ul>
+
+<p>希望这些建议能够帮助你学习 Java Spring Boot。祝你学习愉快！</p>
+
+<h2 id="学习java的建议">学习Java的建议</h2>
+
+<p>以下是一些学习 Java 的建议:</p>
+
+<ul>
+  <li>
+    <p>掌握 Java 基础知识：在学习 Java 之前，建议先掌握 Java 的基础知识，例如数据类型、控制流语句、数组、类和对象等。</p>
+  </li>
+  <li>
+    <p>学习 Java 的语法和面向对象编程：了解 Java 的语法和面向对象编程思想，例如封装、继承、多态等。</p>
+  </li>
+  <li>
+    <p>实践是学习的关键：学习 Java 最好的方法是通过实践。可以尝试编写简单的 Java 程序，并与其他开发者交流和分享你的经验。</p>
+  </li>
+  <li>
+    <p>阅读 Java 的官方文档:Java 的官方文档是学习 Java 的最佳资源之一。建议仔细阅读官方文档，并在实践中应用所学知识。</p>
+  </li>
+  <li>
+    <p>参与 Java 社区:Java 社区是一个非常活跃的社区，有许多开发者在使用和贡献 Java。可以参与 Java 社区，与其他开发者交流和分享你的经验和知识。</p>
+  </li>
+  <li>
+    <p>学习 Java 的高级特性:Java 提供了许多高级特性，例如反射、泛型、Lambda 表达式等。学习 Java 的高级特性可以帮助你更好地应对复杂的应用程序开发需求。</p>
+  </li>
+</ul>
+
+<p>希望这些建议能够帮助你学习 Java。祝你学习愉快！</p>]]></content><author><name></name></author><summary type="html"><![CDATA[当学习 Vue 时，以下是一些建议]]></summary></entry></feed>

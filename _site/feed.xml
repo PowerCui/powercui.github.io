@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-05-02T13:49:40+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2023/05/02/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2023-05-02T04:55:34+08:00</published><updated>2023-05-02T04:55:34+08:00</updated><id>http://localhost:4000/jekyll/update/2023/05/02/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2023/05/02/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-05-02T17:05:26+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">My page title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2023/05/02/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2023-05-02T04:55:34+08:00</published><updated>2023-05-02T04:55:34+08:00</updated><id>http://localhost:4000/jekyll/update/2023/05/02/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2023/05/02/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
 
 <p>Jekyll requires blog post files to be named according to the following format:</p>
 
@@ -175,4 +175,163 @@
   </li>
 </ul>
 
-<p>希望这些建议能够帮助你学习 Java。祝你学习愉快！</p>]]></content><author><name></name></author><summary type="html"><![CDATA[当学习 Vue 时，以下是一些建议]]></summary></entry></feed>
+<p>希望这些建议能够帮助你学习 Java。祝你学习愉快！</p>]]></content><author><name></name></author><category term="tagetest2" /><summary type="html"><![CDATA[当学习 Vue 时，以下是一些建议]]></summary></entry><entry><title type="html">Liquid 标签学习</title><link href="http://localhost:4000/2023/02/02/Liquid%E6%A0%87%E7%AD%BE.html" rel="alternate" type="text/html" title="Liquid 标签学习" /><published>2023-02-02T00:00:00+08:00</published><updated>2023-02-02T00:00:00+08:00</updated><id>http://localhost:4000/2023/02/02/Liquid%E6%A0%87%E7%AD%BE</id><content type="html" xml:base="http://localhost:4000/2023/02/02/Liquid%E6%A0%87%E7%AD%BE.html"><![CDATA[<h2 id="代码段高亮显示">代码段高亮显示</h2>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">foo</span>
+  <span class="nb">puts</span> <span class="s1">'foo'</span>
+<span class="k">end</span></code></pre></figure>
+
+<h2 id="行号">行号</h2>
+
+<p>highlightcalled的第二个参数是linenos可选的。包含该linenos参数将强制突出显示的代码包含行号。例如，以下代码块将在每行旁边包含行号：</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><table class="rouge-table"><tbody><tr><td class="gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="code"><pre><span class="k">def</span> <span class="nf">foo</span>
+  <span class="nb">puts</span> <span class="s1">'foo'</span>
+<span class="k">end</span>
+</pre></td></tr></tbody></table></code></pre></figure>
+
+<h2 id="标记特定行440">标记特定行4.4.0</h2>
+
+<p>您可以使用可选参数标记代码片段中的特定行mark_lines。此参数采用空格分隔的行号列表，必须用双引号引起来。例如，以下代码块将标记第 1 行和第 2 行，但不会标记第 3 行：</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">foo</span>
+  <span class="nb">puts</span> <span class="s1">'foo'</span>
+  <span class="n">line3</span>
+  <span class="n">line4</span>
+<span class="k">end</span></code></pre></figure>
+
+<h2 id="包括图像和资源固定链接">包括图像和资源固定链接</h2>
+
+<p>在某些时候，您会希望在文本内容中包含图像、下载或其他数字资产。一种常见的解决方案是在项目目录的根目录中创建一个文件夹，名称类似于assets，其中放置任何图像、文件或其他资源。然后，在任何帖子中，它们都可以链接到使用站点的根目录作为要包含的资产的路径。执行此操作的最佳方法取决于您站点的（子）域和路径的配置方式，但以下是 Markdown 中的一些简单示例：</p>
+
+<p>在帖子中包含图像资产：</p>
+
+<pre><code class="language-show">... which is shown in the screenshot below:
+![My helpful screenshot](/assets/screenshot.jpg)
+</code></pre>
+<p><img src="/assets/threebody.jpg" alt="image" /></p>
+
+<p>链接到 PDF 供读者下载：</p>
+
+<pre><code class="language-eg">... you can [get the PDF](/assets/mydoc.pdf) directly.
+</code></pre>
+
+<h2 id="显示帖子索引">显示帖子索引</h2>
+
+<p>多亏了Liquid及其标签，在另一个页面上创建帖子索引应该很容易 。这是一个简单的示例，说明如何创建指向您的博客文章的链接列表：</p>
+
+<ul>
+  
+    <li>
+      <a href="/jekyll/update/2023/05/02/welcome-to-jekyll.html">Welcome to Jekyll!</a>
+    </li>
+  
+    <li>
+      <a href="/2023/05/02/alist.html">学习清单</a>
+    </li>
+  
+    <li>
+      <a href="/2023/02/02/Liquid%E6%A0%87%E7%AD%BE.html">Liquid 标签学习</a>
+    </li>
+  
+</ul>
+
+<p>您可以完全控制如何（以及在​​何处）显示您的帖子，以及如何构建您的网站。如果你想了解更多，你应该阅读更多关于模板如何与 Jekyll 一起工作的内容。</p>
+
+<p>请注意，该post变量仅存在于for上面的循环中。for如果您希望访问当前呈现的页面/帖子的变量（其中包含循环的帖子/页面的变量），请改用该page 变量。</p>
+
+<h2 id="标签和类别">标签和类别</h2>
+
+<p>Jekyll 对博客文章中的标签和类别提供一流的支持。</p>
+
+<h2 id="标签">标签</h2>
+
+<p>tag帖子的标签在帖子的前面使用单个条目或tags多个条目的键定义 。
+由于 Jekyll 期望多个项目映射到 key tags， 如果它包含空格，它会自动拆分一个字符串条目。例如，虽然 front matter tag: classic hollywood将被处理成一个单一的实体 “classic hollywood”，但 front mattertags: classic hollywood将被处理成一个条目数组[“classic”, “hollywood”]。</p>
+
+<p>无论选择的前键如何，Jekyll 都会存储映射到公开给 Liquid 模板的复数键的元数据。</p>
+
+<p>当前站点中注册的所有标签都通过 公开给 Liquid 模板 site.tags。在页面上迭代site.tags将产生另一个包含两个项目的数组，其中第一个项目是标签的名称，第二个项目是具有 该标签的帖子数组。</p>
+
+<h3>tagtest1</h3>
+<ul>
+    
+      <li><a href="/2023/02/02/Liquid%E6%A0%87%E7%AD%BE.html">Liquid 标签学习</a></li>
+    
+  </ul>
+
+<h3>tagetest2</h3>
+<ul>
+    
+      <li><a href="/2023/05/02/alist.html">学习清单</a></li>
+    
+  </ul>
+
+<h2 id="类别">类别</h2>
+
+<p>类似于上述标签的帖子作品类别：</p>
+
+<p>category它们可以使用键或 categories（遵循与标签相同的逻辑）通过前端定义
+站点中注册的所有类别都暴露给 Liquid 模板，通过 site.categories这些模板可以迭代（类似于上面的标签循环）。
+然而，类别和标签之间的相似性到此为止。</p>
+
+<p>与标签不同，帖子的类别也可以由帖子的文件路径定义。上面的任何目录都_posts将作为类别读入。例如，如果帖子位于 path movies/horror/_posts/2019-05-21-bride-of-chucky.markdown，则movies和horror将自动注册为该帖子的类别。</p>
+
+<p>当帖子也有 front matter 定义类别时，如果它们不存在，它们只会被添加到现有列表中。</p>
+
+<p>类别和标签之间的标志性区别在于帖子的类别可以合并到为帖子生成的 URL中，而标签不能。</p>
+
+<p>因此，根据前面内容是否有category: classic hollywood, 或categories: classic hollywood，上面的示例帖子的 URL 将分别为 either movies/horror/classic%20hollywood/2019/05/21/bride-of-chucky.html或 movies/horror/classic/hollywood/2019/05/21/bride-of-chucky.html。</p>
+
+<h2 id="帖子摘录">帖子摘录</h2>
+
+<p>excerpt您可以通过在帖子上使用变量来访问帖子内容的片段。默认情况下，这是帖子中的第一段内容，但是可以通过excerpt_separator在 front matter 或 中设置变量 来自定义它_config.yml。</p>
+
+<pre><code class="language-excerpt">---
+excerpt_separator: &lt;!--more--&gt;
+---
+
+Excerpt with multiple paragraphs
+
+Here's another paragraph in the excerpt.
+&lt;!--more--&gt;
+Out-of-excerpt
+</code></pre>
+
+<p>下面是输出带有摘录的博客文章列表的示例：</p>
+
+<ul>
+  
+    <li>
+      <a href="/jekyll/update/2023/05/02/welcome-to-jekyll.html">Welcome to Jekyll!</a>
+      <p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+    </li>
+  
+    <li>
+      <a href="/2023/05/02/alist.html">学习清单</a>
+      <h2 id="当学习-vue-时以下是一些建议">当学习 Vue 时，以下是一些建议</h2>
+
+    </li>
+  
+    <li>
+      <a href="/2023/02/02/Liquid%E6%A0%87%E7%AD%BE.html">Liquid 标签学习</a>
+      <h2 id="代码段高亮显示">代码段高亮显示</h2>
+
+    </li>
+  
+</ul>
+
+<h2 id="草稿">草稿</h2>
+
+<p>草稿是文件名中没有日期的帖子。它们是您仍在处理但还不想发布的帖子。要启动并运行草稿，请_drafts在您站点的根目录中创建一个文件夹并创建您的第一个草稿：</p>
+
+<p>.
+├── _drafts
+│   └── a-draft-post.md
+…</p>
+
+<p>要使用草稿预览您的站点，请运行jekyll serve或jekyll build 使用–drafts开关。每个人都将被分配草稿文件的值修改时间作为其日期，因此您将看到当前编辑的草稿作为最新帖子。</p>]]></content><author><name></name></author><category term="tagtest1" /><summary type="html"><![CDATA[代码段高亮显示]]></summary></entry></feed>

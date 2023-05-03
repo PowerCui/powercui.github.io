@@ -6,8 +6,7 @@
 
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-title : Welcome to GitHub Pages
-layout: home
+
 
 # Welcome to Jekyll!
 #
@@ -30,20 +29,8 @@ layout: home
 # in the templates via {{ site.myvariable }}.
 
 # title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
-
-# Build settings
-theme: minima
-plugins:
-  - jekyll-feed
+title: Welcome Pages
+layout: home
 
 # Exclude from processing.
 # The following items will not be processed, by default.
